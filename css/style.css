@@ -1,0 +1,406 @@
+body{
+  font: 15px/1.5 Arial, Helvetica. sans-serif;
+  padding:0;
+  margin:0;
+  background-color: #ffffff;
+}
+
+/* Global */
+.container{
+  width: 80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+.dark{
+  padding: 15px;
+  background:#3fa13b;
+  color: #ffffff;
+}
+
+/* Header */
+header{
+  background: #b08b58;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  min-height: 70px;
+  max-height: 70px;
+  border-bottom: #3fa13b 4px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+header h1{
+	font-size: 50px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 20px;
+}
+
+header .highlight, header .current a{
+  color: #3fa13b;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+#loginSec form{
+	float: right;
+	margin-right: 180px;
+}
+
+#loginSec button{
+	margin-left: 200px; 
+	border: 0;
+	height: 35px;
+	width: 100px;
+	background-color: #b08b58;
+	color: #ffffff;
+}
+
+#goodsTitle h1{
+	font-size: 40px;
+	text-align: centre;
+	margin-left: 750px;
+	line-height: 35px;
+	font-family: arial;
+}
+
+/* searchBar */
+#searchBar{
+  padding: 15px;
+  color: #ffffff;
+  background: #b08b58;
+  z-index: 100;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#searchBar input{
+	float: left;
+	width: 600px;
+}
+
+#searchBar nav ul{
+	margin-top: 0px;
+	float: left;
+}
+
+#searchBar nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+	opacity: .9;
+	text-align: centre;
+}
+
+#searchBar nav ul li a{
+	display: block;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 10px;
+	background-color: #3fa13b;
+}
+
+#searchBar nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color: #3fa13b;
+	padding: 6px;
+	border-radus: 0px 0px 4px 4px;
+}
+
+#searchBar nav ul li:hover ul{
+	display: block;
+}
+
+
+#searchBar nav ul li ul li{
+		width: 180px;
+		border-radus: 4px;
+}
+
+#searchBar nav ul li ul li a{
+		padding: 10px;
+}
+
+#searchBar nav ul li ul li a:hover{
+		background-color: #86ee88;
+		
+}
+
+#searchBar button{
+  border: 0;
+  height: 35px;
+  width: 100px;
+  margin-left: 12px;
+  background-color: #3fa13b;
+  color: #ffffff;
+  float: right;
+}
+
+#boxes{
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img{
+  width: 170px;
+  height: 120px;
+  border-color: black;
+  border-width: 6px;;
+}
+
+#boxes button{ 
+	border: 0;
+	height: 35px;
+	width: 100px;
+	background-color: #b08b58;
+	color: #ffffff;
+}
+
+#main-col{
+  float: right;
+  width: 65%;
+}
+
+#main-col h1{
+	font-size: 40px;
+	font-style: underline;
+}
+
+#main-col p{
+	font-size: 20px;
+}
+
+#imageBox{
+  float: left;
+	padding: 15px;
+}
+
+#contactSec{
+	margin-top: 10px;
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 70px;
+	background-color: #3fa13b;
+}
+
+#contactSec h1{
+	margin-top: 9px;
+	font-size: 24px;
+	float: left;
+}
+
+#contactSec p{
+	font-size: 16px;
+	float:right;
+}
+
+#cartTitle p{
+	font-size: 40px;
+	float: left;
+	line-height: 35px;
+	font-family: arial;
+	margin-left: 200px;
+}
+
+#paySec button{
+	margin-left: 200px; 
+	border: 0;
+	height: 35px;
+	width: 100px;
+	background-color: #b08b58;
+	color: #ffffff;
+	margin-top: 20px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 200px 400px 100px 200px 200px;
+	grid-gap: 10px;
+	background-color: #b08b58;
+	padding: 16px;
+	margin-top: 120px;
+	margin-left: 200px;
+	margin-right: 200px;
+	justify-content: center;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.grid-container1 {
+	display: grid;
+	grid-template-columns: 200px 400px 100px 200px 200px;
+	grid-gap: 10px;
+	background-color: #3fa13b;
+	margin-left: 200px;
+	margin-right: 200px;
+	justify-content: center;
+}
+
+.grid-container1 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+/* register */
+.column{
+  float: left;
+  width: 30%;
+  margin: 8px;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.email{
+  width: 30%;
+  margin: 8px;
+}
+
+.column input{
+  width: 49%;
+}
+
+.email input{
+  width: 98%;
+}
+
+#join{
+	background-color: #b08b58;
+	margin-bottom: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+#join button{
+  float: left;
+  border: 0;
+  margin: 8px;
+  width: 100px;
+  height: 30px;
+  font-size: 15px;
+  background-color: #3fa13b;
+  color: #ffffff;
+}
+
+#join Label{
+  font-size: 20px;
+}
+
+/* footer */
+footer{
+  padding: 5px;
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: #3fa13b;
+  text-align: center;
+}
+
+#homeFoot{
+  padding: 5px;
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: #3fa13b;
+  text-align: center;
+}
+
+#aboutFoot{
+  padding: 5px;
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: #b08b58;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #searchBar h1,
+  #searchBar form,
+  #boxes .box,
+  article#main-col,
+  aside#login{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+
+  #showcase h1{
+    margin-top: 40px;
+  }
+
+  #searchBar button, #login button{
+    display: block;
+    width: 100%;
+  }
+
+  #searchBar form input[type = "Email"], #login input{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .email {
+    width: 100%;
+  }
+}

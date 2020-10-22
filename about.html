@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width = device-width">
+  <meta name="description"
+    content="Come on in and take alook, theres bound to eb something cheap and useful even for you!">
+  <meta name="keyword" content="sale, household, appliances, tools, hardware, second hand">
+  <meta name="author" content="Denzil Vorster">
+  <title>Jacque's Goods | Welcome</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<header>
+  <div class="container">
+    <div id="branding">
+      <h1><span class="highlight">Jacque's</span> Goods</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="current"><a href="about.html">About</a></li>
+        <li><a href="shoppingCart.html">Shopping Cart</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<body>
+
+
+  <section id="loginSec">
+    <div class="dark">
+      <button type="submit" class="loginButton">Login</button>
+      <form>
+        Username:
+        <input type="username" placeholder="Enter Username" id="usernameL">
+        Password:
+        <input type="password" placeholder="Enter Password" id="passwordL">
+      </form>
+    </div>
+  </section>
+
+  <section id="main">
+    <div class="container">
+      <article id="main-col">
+        <h1 class="page-title">About Us:</h1>
+        <p>
+          Jacqe's goods is a private resale business run by Mr Jacque Pienaar and his two trusted associates.
+          They aim to prive top notch service and ensure that transactions go through smoothly and customers receive
+          their products successfully.
+          Through their hard work all products are kept efficiently up to date and any private or personal requests are
+          handled through our communication channels.
+        </p>
+        <p>
+          If you have any enquiries please don't hesitate to contact us with the information below.
+          Also if you haven't registered an account yet please do so with the form provided, this will make your
+          shopping experience a smooth sailing venture.
+        </p>
+      </article>
+
+      <aside id="imageBox">
+        <img src="./img/jacque.png">
+      </aside>
+    </div>
+  </section>
+
+  <section id="join">
+    <div class="container">
+      <form class="register" name="registration" method="post">
+        <h1 class="page-title">Join Us:</h1>
+
+        <div class="row">
+          <div class="column">
+            <Label>Name:</Label><br>
+            <input type="text" name="name" class="textInput" placeholder="Enter Name">
+            <div id="name error" class="val_error"></div>
+          </div>
+          <div class="column">
+            <Label>Surname:</Label><br>
+            <input type="text" name="surname" class="textInput" placeholder="Enter Surname">
+            <div id="surname error" class="val_error"></div>
+          </div>
+        </div>
+
+        <div class="email">
+          <Label>Email:</Label><br>
+          <input type="email" name="email" class="textInput" placeholder="Enter Email">
+          <div id="email error" class="val_error"></div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <Label>Password:</Label><br>
+            <input type="password" name="password" class="textInput" placeholder="Enter Password">
+            <div id="password error" class="val_error"></div>
+          </div>
+          <div class="column">
+            <Label>Confirm Password:</Label><br>
+            <input type="password" name="confirmPassword" class="textInput" placeholder="Confirm Password"><br>
+            <div id="confirm password error" class="val_error"></div>
+          </div>
+        </div>
+
+        <div class="button">
+          <button type="submit" class="buttonReg" name="registerB" onclick="Validation()">Register</button>
+        </div>
+
+      </form>
+    </div>
+  </section>
+
+  <section id="contactSec">
+    <div class="dark">
+      <h1>Contact Us Here:</h1>
+      <p>E-Mail: jacquesgoods@webmail.com Telephone: 021 988 5364</p>
+    </div>
+  </section>
+
+  <footer id="aboutFoot">
+    <p>Jacque's Goods Enterprise, Copyright &copy, 2019, Denzil Vorster</p>
+  </footer>
+</body>
+</html>
